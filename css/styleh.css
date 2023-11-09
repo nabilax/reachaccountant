@@ -5,22 +5,15 @@
   color: #239EFE;
 }
 
-.text-custom-primary {
-  color: #239EFE !important;
-} 
 
-.bg-custom-primary {
-  color: #239EFE !important;
-}
-
-  @media only screen and (min-width: 992px) {
-    .dropdown:hover .dropdown-menu {
-      display: flex;
-    }
-    .dropdown-menu.show {
-      display: flex;
-    }
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: flex;
   }
+  .dropdown-menu.show {
+    display: flex;
+  }
+}
 
   @media only screen and (max-width: 992px) {
     .dropdown:hover .dropdown-menu {
