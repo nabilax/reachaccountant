@@ -197,21 +197,72 @@
               <p class="mb-2"><b>Get Best Prices Guaranteed</b></p>
               <p class="mb-4 small">Kindly provide your details to schedule a call with one of our experts who can make sure that the products fits you and send you a quote</p>
   
-              <div class="form-outline mb-2">
-                <input type="name" id="typeNameX-2" class="form-control form-control-lg" required />
-                <label class="form-label" for="typeNameX-2">Email</label>
-              </div>
-              <div class="form-outline mb-2">
-                <input type="phone" id="typePhoneX-2" class="form-control form-control-lg" required />
-                <label class="form-label" for="typePhoneX-2">Phone</label>
-              </div>
-              <div class="form-outline mb-2">
-                <input type="business" id="typeBusinessX-2" class="form-control form-control-lg" />
-                <label class="form-label" for="typeBusinessX-2">Business Type</label>
-              </div>
-              <!-- Checkbox -->
-  
-              <button class="btn btn-primary btn-lg btn-block mb-2" type="submit">Get a Quote</button>
+              <form action="#!" method="post">
+                <!-- Name and Business Type Inputs -->
+                <div class="mb-3 form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" name="name" class="form-control" placeholder="Your Name">
+                </div>
+                <!-- Phone Number Input in Bootstrap Form -->
+                <div class="mb-3 select-box">
+                <div class="selected-option">
+                <div>
+                <span class="iconify" data-icon="flag:in-4x3"></span>
+                <strong>+91</strong>
+                </div>
+                <input type="tel" name="tel" class="form-control" placeholder="Your Phone Number">
+                </div>
+                <div class="options">
+                <input type="text" class="search-box" placeholder="Search Country Name">
+                <ol>
+                  
+                </ol>
+                </div>
+                </div>
+                <div class="form-group mb-3">
+                <label for="business_type" class="fw-bold">Business Type</label>
+                <select name="business_type" id="business_type" class="form-control form-select" required="">
+                <option value="" selected="" disabled="">-Business Type-</option>
+                <optgroup label="Retail">
+                <option value="SUPERMARKET">Supermarkets</option>
+                <option value="TEXTILE STORES">Textile stores</option>
+                <option value="MOBILE SHOP">Mobile Shop</option>
+                <option value="JEWELLERY STORE">Jewellery stores</option>
+                <option value="CAFE AND BAKERY">Cafe &amp; Restaurant</option>
+                <option value="" disabled=""></option>
+                </optgroup>
+                <optgroup label="Manufacturer &amp; Distribution">
+                <option value="WHOLESALE &amp; DISTRIBUTORS">Wholesale &amp; Distribution</option>
+                <option value="E-COMMERCE">E-commerce company backend</option>
+                <option value="CONTRACTORS">Contractors</option>
+                <option value="MANUFACTURERS">Manufacturers</option>
+                <option value="IMPORTERS &amp; EXPORTERS">Importers or Exporters</option>
+                <option value="" disabled=""></option>
+                </optgroup>
+                <optgroup label="Services">
+                <option value="ACCOUNTANTS">Accountants</option>
+                <option value="CONSULTANTS AND AGENTS">Consultants and Freelancers</option>
+                <option value="RENTAL BUSINESS">Rentals &amp; Subscription business</option>
+                <option value="REPAIR AND SERVICING">Repair and Servicing</option>
+                <option value="" disabled=""></option>
+                </optgroup>
+                <optgroup label="Automobile">
+                <option value="USED CAR DEALERS">Used Car dealers</option>
+                <option value="CAR RENTAL">Car Rentals</option>
+                <option value="CAR WORKSHOP">Workshops &amp; Repair service</option>
+                <option value="AUTO SPARE PARTS">Auto Spare Parts</option>
+                <option value="TRANSPORTERS">Transporters</option>
+                <option value="" disabled=""></option>
+                </optgroup>
+                <optgroup label="Automobile">
+                <option value="OTHERS" selected="">Others</option>
+                <option value="" disabled=""></option>
+                </optgroup>
+                </select>
+                </div>   
+               <!-- Submit and Close Buttons -->
+               <button class="btn btn-primary btn-lg btn-block mb-2" type="submit">Get a Quote</button>           
+              </form>
               <p class="small">By clicking 'Get a Quote,' you consent to Reach Accountant contacting you via phone, email, or text message, which may be automated, for promotions. You acknowledge our Privacy Statement. Consent is not a condition of any purchase.</p>
             </div>
           </div>
@@ -227,15 +278,13 @@
           <div class="footer-widget">
             <h5 class="mb-3 text-primary font-secondary">Our Products</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="#">Compare</a>
+              <li class="mb-2"><a href="compare.html">Compare</a>
               </li>
-              <li class="mb-2"><a href="#">See How It Works</a>
+              <li class="mb-2"><a href="see-how-its-work.html">See How It Works</a>
               </li>
-              <li class="mb-2"><a href="#">Customers Review</a>
+              <li class="mb-2"><a href="customers-review.html">Customers Review</a>
               </li>
-              <li class="mb-2"><a href="#">Mortgage Loans</a>
-              </li>
-              <li class="mb-2"><a href="#">Brochures</a>
+              <li class="mb-2"><a href="brochures.html">Brochures</a>
               </li>
             </ul>
             <h5 class="mb-3 text-primary font-secondary">Training</h5>
@@ -247,9 +296,9 @@
             </ul>
             <h5 class="mb-3 text-primary font-secondary">Partnership</h5>
             <ul class="list-unstyled">
-              <li class="mb-2"><a href="#">Accounting Partner</a>
+              <li class="mb-2"><a href="account-partner.html">Accounting Partner</a>
               </li>
-              <li class="mb-2"><a href="#">Reseller</a>
+              <li class="mb-2"><a href="reseller.html">Reseller</a>
               </li>
               <li class="mb-2"><a href="#">Developer</a>
               </li>
@@ -300,7 +349,7 @@
             <ul class="list-unstyled">
               <li class="mb-2"><a href="security-protocol.html">Security Protocols</a>
               </li>
-              <li class="mb-2"><a href="#!">Terms of Use</a>
+              <li class="mb-2"><a href="terms-service.html">Terms of Use</a>
               </li>
               <li class="mb-2"><a href="#!">Privacy Policy</a>
               </li>
@@ -360,11 +409,17 @@
         </div>
   </footer>
   
+  
   <!-- # JS Plugins -->
+  
   <script src="plugins/jquery/jquery.min.js"></script>
   <script src="plugins/bootstrap/bootstrap.min.js"></script>
   <script src="plugins/slick/slick.min.js"></script>
   <script src="plugins/scrollmenu/scrollmenu.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
   
   <!-- Main Script -->
   <script src="js/script.js"></script>

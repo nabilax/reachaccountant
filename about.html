@@ -198,16 +198,10 @@
 		<div class="modal-body">
 		  <form action="#!" method="post">
 			<div class="row">
-			  <div class="col-lg-6 mb-4 pb-2">
+			  <div class="col-lg-12 mb-4 pb-2">
 				<div class="form-group">
-				  <label for="loan_full_name" class="form-label">Full Name</label>
+				  <label for="loan_full_name" class="form-label">Name</label>
 				  <input type="text" class="form-control shadow-none" id="loan_full_name">
-				</div>
-			  </div>
-			  <div class="col-lg-6 mb-4 pb-2">
-				<div class="form-group">
-				  <label for="loan_email_address" class="form-label">Email address</label>
-				  <input type="email" class="form-control shadow-none" id="loan_email_address">
 				</div>
 			  </div>
 			  <div class="col-lg-12 mb-4 pb-2">
@@ -216,18 +210,28 @@
 				  <input type="number" class="form-control shadow-none" id="loan_repayment" disabled>
 				</div>
 			  </div>
-			  <div class="col-lg-6 mb-4 pb-2">
+			  <div class="col-lg-12 mb-4 pb-2">
 				<div class="form-group">
-				  <label for="loan_full_name" class="form-label">Company Name</label>
-				  <input type="text" class="form-control shadow-none" id="loan_full_name">
-				</div>
-			  </div>
-			  <div class="col-lg-6 mb-4 pb-2">
-				<div class="form-group">
-				  <label for="loan_email_address" class="form-label">Title</label>
+				  <label for="loan_email_address" class="form-label">Email Address</label>
 				  <input type="email" class="form-control shadow-none" id="loan_email_address">
 				</div>
 			  </div>
+
+			  <div class="col-lg-12 mb-4 pb-2">
+				<div class="form-group">
+					<label for="business_type" class="fw-bold">I am</label>
+					<select name="business_type" id="business_type" class="form-control form-select" required="">
+					<option value="Evaluating Purchase">Evaluating Purchase</option>
+					<option value="Evaluating Partnership">Evaluating Partnership</option>
+					<option value="CAR WORKSHOP">Trying to Know More About Your Company</option>
+					<option value="An Investor">An Investor</option>
+					<option value="A Government Agency">A Government Agency</option>
+					<option value="OTHERS" selected="" class="text-muted">--Select--</option>
+					<option value="" disabled=""></option>
+					</select>
+					</div>   
+			  </div>
+
 			  <div class="col-lg-12 mb-3">
 				<div class="form-check">
 					<input class="form-check-input" type="checkbox" id="callMeCheckbox">
@@ -582,15 +586,13 @@ firms that they have invested in</p>
 				<div class="footer-widget">
 					<h5 class="mb-3 text-primary font-secondary">Our Products</h5>
 					<ul class="list-unstyled">
-						<li class="mb-2"><a href="#">Compare</a>
+						<li class="mb-2"><a href="compare.html">Compare</a>
 						</li>
-						<li class="mb-2"><a href="#">See How It Works</a>
+						<li class="mb-2"><a href="see-how-its-work.html">See How It Works</a>
 						</li>
-						<li class="mb-2"><a href="#">Customers Review</a>
+						<li class="mb-2"><a href="customers-review.html">Customers Review</a>
 						</li>
-						<li class="mb-2"><a href="#">Mortgage Loans</a>
-						</li>
-						<li class="mb-2"><a href="#">Brochures</a>
+						<li class="mb-2"><a href="brochures.html">Brochures</a>
 						</li>
 					</ul>
 					<h5 class="mb-3 text-primary font-secondary">Training</h5>
@@ -602,9 +604,9 @@ firms that they have invested in</p>
 					</ul>
           <h5 class="mb-3 text-primary font-secondary">Partnership</h5>
 					<ul class="list-unstyled">
-						<li class="mb-2"><a href="#">Accounting Partner</a>
+						<li class="mb-2"><a href="account-partner.html">Accounting Partner</a>
 						</li>
-						<li class="mb-2"><a href="#">Reseller</a>
+						<li class="mb-2"><a href="reseller.html">Reseller</a>
 						</li>
             <li class="mb-2"><a href="#">Developer</a>
 						</li>
@@ -655,7 +657,7 @@ firms that they have invested in</p>
 					<ul class="list-unstyled">
 						<li class="mb-2"><a href="security-protocol.html">Security Protocols</a>
 						</li>
-						<li class="mb-2"><a href="#!">Terms of Use</a>
+						<li class="mb-2"><a href="terms-service.html">Terms of Use</a>
 						</li>
             <li class="mb-2"><a href="#!">Privacy Policy</a>
 						</li>
@@ -664,7 +666,7 @@ firms that they have invested in</p>
 					</ul>        
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-12 newsletter-form">
+      <div class="col-lg-4 col-md-12 newsletter-form">
 				<div class="bg-tertiary" style="padding: 35px;">
 					<h5 class="mb-4 text-primary font-secondary">Subscribe</h5>
 					<div class="pe-0 pe-xl-5">
@@ -717,6 +719,7 @@ firms that they have invested in</p>
 
 
 <!-- # JS Plugins -->
+
 <script src="plugins/jquery/jquery.min.js"></script>
 <script src="plugins/bootstrap/bootstrap.min.js"></script>
 <script src="plugins/slick/slick.min.js"></script>
@@ -724,6 +727,7 @@ firms that they have invested in</p>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
