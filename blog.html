@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Reach Accountant | Security Protocols</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+	<meta name="description" content="This is meta description">
+	<meta name="author" content="Themefisher">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="wallet" />
+
+	<!-- # Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- # CSS Plugins -->
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/font-awesome/fontawesome.min.css">
+	<link rel="stylesheet" href="plugins/font-awesome/brands.css">
+	<link rel="stylesheet" href="plugins/font-awesome/solid.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+   <!-- Country code phone input --> 
+   <link rel="stylesheet" href="css/countrycode.css">   
+   <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+	<!-- # Main Style Sheet -->
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styleh.css">
+</head>
+
+<body>
+
+<!-- navigation -->
+<header class="navigation bg-tertiary">
+    <nav class="navbar navbar-expand-xl navbar-light text-center py-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="images/logo.png" alt="Wallet">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Who Can Use?</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul>
+                    <li><a class="dropdown-item" href="#">Retail</a></li>
+                    <li><a class="dropdown-item" href="supermarket.html">Super Market</a></li>
+                    <li><a class="dropdown-item" href="textile-store.html">Textile Store</a></li>
+                    <li><a class="dropdown-item" href="mobile-shop.html">Mobile Shop</a></li>
+                    <li><a class="dropdown-item" href="jewellery-store.html">Jewellery Store</a></li>
+                    <li><a class="dropdown-item" href="furniture-store.html">Furniture Store</a></li>
+                    <li><a class="dropdown-item" href="cafe-bakery.html">Cafe & Bakery</a></li>
+                </ul>
+                <ul>
+                    <li><a class="dropdown-item" href="#">Automobile</a></li>
+                    <li><a class="dropdown-item" href="used-car-dealer.html">Used Car Dealer</a></li>
+                    <li><a class="dropdown-item" href="car-workshop.html">Car Workshop</a></li>
+                    <li><a class="dropdown-item" href="car-rental.html">Car Rental</a></li>
+                    <li><a class="dropdown-item" href="auto-spare-part-dealer.html">Auto Spare Parts Dealer</a></li>
+                </ul>
+                <ul>
+                    <li><a class="dropdown-item" href="#">Manufacturer & Distributor</a></li>
+                    <li><a class="dropdown-item" href="wholesaler-distributor.html">Wholesaler & Distributor</a></li>
+                    <li><a class="dropdown-item" href="importer-exporter.html">Importer & Exporter</a></li>
+                    <li><a class="dropdown-item" href="e-commerce.html">E-commerce</a></li>
+                    <li><a class="dropdown-item" href="contractor.html">Contractor</a></li>
+                    <li><a class="dropdown-item" href="small-manufacturer.html">Small Manufacturer</a></li>
+                </ul>
+            </div>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul>
+                    <li><a class="dropdown-item" href="#">For</a></li>
+                    <li><a class="dropdown-item" href="s-accountant.html">Accountant</a></li>
+                    <li><a class="dropdown-item" href="s-repair-service-center.html">Repair & Service Center</a></li>
+                    <li><a class="dropdown-item" href="s-rental-business.html">Rental Business</a></li>
+                    <li><a class="dropdown-item" href="s-consultant-agent.html">Consultant & Agent</a></li>
+                    <li><a class="dropdown-item" href="s-transporter.html">Transporter</a></li>
+                </ul>
+            </div>
+            </li>
+  
+            <li class="nav-item"> <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <!-- More menu items here -->
+          </ul>
+          <a type="button"
+              class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
+              Expert</a>
+          <a href="login.html" class="btn btn-primary ms-2 ms-lg-3">Sign In</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /navigation -->
+  
+  <div class="modal talkExpertModal fade" id="talkExpert" tabindex="-1" aria-labelledby="talkExpertLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-tertiary">
+        <div class="modal-header border-bottom-0">
+          <h4 class="modal-title" id="exampleModalLabel">Talk To An Expert</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="#!" method="post">
+            <!-- Name and Business Type Inputs -->
+            <div class="mb-3 form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" name="name" class="form-control" placeholder="Your Name">
+            </div>
+            <!-- Phone Number Input in Bootstrap Form -->
+            <div class="mb-3 select-box">
+            <div class="selected-option">
+            <div>
+            <span class="iconify" data-icon="flag:in-4x3"></span>
+            <strong>+91</strong>
+            </div>
+            <input type="tel" name="tel" class="form-control" placeholder="Your Phone Number">
+            </div>
+            <div class="options">
+            <input type="text" class="search-box" placeholder="Search Country Name">
+            <ol>
+              
+            </ol>
+            </div>
+            </div>
+            <div class="form-group mb-3">
+            <label for="business_type" class="fw-bold">Business Type</label>
+            <select name="business_type" id="business_type" class="form-control form-select" required="">
+            <option value="" selected="" disabled="">-Business Type-</option>
+            <optgroup label="Retail">
+            <option value="SUPERMARKET">Supermarkets</option>
+            <option value="TEXTILE STORES">Textile stores</option>
+            <option value="MOBILE SHOP">Mobile Shop</option>
+            <option value="JEWELLERY STORE">Jewellery stores</option>
+            <option value="CAFE AND BAKERY">Cafe &amp; Restaurant</option>
+            <option value="" disabled=""></option>
+            </optgroup>
+            <optgroup label="Manufacturer &amp; Distribution">
+            <option value="WHOLESALE &amp; DISTRIBUTORS">Wholesale &amp; Distribution</option>
+            <option value="E-COMMERCE">E-commerce company backend</option>
+            <option value="CONTRACTORS">Contractors</option>
+            <option value="MANUFACTURERS">Manufacturers</option>
+            <option value="IMPORTERS &amp; EXPORTERS">Importers or Exporters</option>
+            <option value="" disabled=""></option>
+            </optgroup>
+            <optgroup label="Services">
+            <option value="ACCOUNTANTS">Accountants</option>
+            <option value="CONSULTANTS AND AGENTS">Consultants and Freelancers</option>
+            <option value="RENTAL BUSINESS">Rentals &amp; Subscription business</option>
+            <option value="REPAIR AND SERVICING">Repair and Servicing</option>
+            <option value="" disabled=""></option>
+            </optgroup>
+            <optgroup label="Automobile">
+            <option value="USED CAR DEALERS">Used Car dealers</option>
+            <option value="CAR RENTAL">Car Rentals</option>
+            <option value="CAR WORKSHOP">Workshops &amp; Repair service</option>
+            <option value="AUTO SPARE PARTS">Auto Spare Parts</option>
+            <option value="TRANSPORTERS">Transporters</option>
+            <option value="" disabled=""></option>
+            </optgroup>
+            <optgroup label="Automobile">
+            <option value="OTHERS" selected="">Others</option>
+            <option value="" disabled=""></option>
+            </optgroup>
+            </select>
+            </div>   
+           <!-- Submit and Close Buttons -->
+           <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary me-2">Submit</button>
+          </div>            
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section class="container-wrap main-color">
+	<div id="main-container" class="container">
+		<div class="row"> 
+			<div class="template-page col-sm-9 tpl-right posts-listing masonry-listing with-meta">
+				<div class="wrap-content">
+					
+				
+
+
+    
+            <div class="row responsive-cols kleo-masonry per-row-1">
+    				
+			
+	<article id="post-15825" class="post-item post-15825 post type-post status-publish format-standard hentry category-workshop-software tag-automotive-workshop-software tag-moiboo-workshop-software tag-workshop-software">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/billionaire-guide-workshop-software-helps-get-rich/" class="element-wrap"><img src="https://www.reachaccountant.com/wp-content/uploads/2019/12/moiboo-workshop-software.jpg" alt="The Billionaire Guide On Workshop Software That Helps You Get Rich"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/billionaire-guide-workshop-software-helps-get-rich/">The Billionaire Guide On Workshop Software That Helps You Get Rich</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/master/" title="View all POSTS by Sumathi" rel="author"> <span class="author-name">Sumathi</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/billionaire-guide-workshop-software-helps-get-rich/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2019-12-30T15:39:47+00:00">30th December 2019</time><time class="modify-date hide hidden updated" datetime="2019-12-30T15:41:03+00:00">30th December 2019</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/workshop-software/" rel="category tag">workshop software</a>, <a href="https://www.reachaccountant.com/erp-software-pos-software-blog/tag/automotive-workshop-software/" rel="tag">automotive workshop software</a>, <a href="https://www.reachaccountant.com/erp-software-pos-software-blog/tag/moiboo-workshop-software/" rel="tag">moiboo workshop software</a>, <a href="https://www.reachaccountant.com/erp-software-pos-software-blog/tag/workshop-software/" rel="tag">workshop software</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/billionaire-guide-workshop-software-helps-get-rich/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>Workshop business is the most profitable business and is considered to be a good money-making venture. Workshop software is...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15825" title="Like this"><span class="item-likes-count">9</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/billionaire-guide-workshop-software-helps-get-rich/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15794" class="post-item post-15794 post type-post status-publish format-standard hentry category-uncategorised">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+				
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/top-5-bookeeping-softwares-india/">TOP-5 BOOKEEPING SOFTWARES IN INDIA</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/master/" title="View all POSTS by Sumathi" rel="author"> <span class="author-name">Sumathi</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/top-5-bookeeping-softwares-india/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2019-12-12T12:07:17+00:00">12th December 2019</time><time class="modify-date hide hidden updated" datetime="2019-12-12T12:07:17+00:00">12th December 2019</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/uncategorised/" rel="category tag">Uncategorised</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/top-5-bookeeping-softwares-india/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>Top features of Reach : Accounting Purchase Managment Customer Managment Vendor Managment Automatic Reminders Barcoding Recieveable Managment</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15794" title="Like this"><span class="item-likes-count">3</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/top-5-bookeeping-softwares-india/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15148" class="post-item post-15148 post type-post status-publish format-standard hentry category-gst category-gst-software-2">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/best-gst-software-in-india/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2018/01/Best-GST-Software.jpg" alt="Best GST Software In India"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/best-gst-software-in-india/">Best GST Software In India</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/best-gst-software-in-india/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2018-01-10T22:25:31+00:00">10th January 2018</time><time class="modify-date hide hidden updated" datetime="2018-12-05T15:55:05+00:00">5th December 2018</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a>, <a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst-software-2/" rel="category tag">GST software</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/best-gst-software-in-india/#comments">1 <i class="icon-chat-1 hover-tip" data-original-title="This article has one comment" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>Which is the Best GST Software In India ? With the introduction of Goods and Service Tax, various state...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15148" title="Like this"><span class="item-likes-count">6</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/best-gst-software-in-india/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15129" class="post-item post-15129 post type-post status-publish format-standard hentry category-gst">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/input-tax-credit-under-gst/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2018/01/Input-Tax-Credit-under-GST-1.jpg" alt="Input Tax Credit under GST"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/input-tax-credit-under-gst/">Input Tax Credit under GST</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/input-tax-credit-under-gst/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2018-01-05T10:56:23+00:00">5th January 2018</time><time class="modify-date hide hidden updated" datetime="2018-01-05T10:56:23+00:00">5th January 2018</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/input-tax-credit-under-gst/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>Input tax credit (also referred to as, “ITC”) is one of the key features of Goods and Services Tax....</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15129" title="Like this"><span class="item-likes-count">13</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/input-tax-credit-under-gst/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15123" class="post-item post-15123 post type-post status-publish format-standard hentry category-gst">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-registration-for-branches/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2018/01/GST-Registration-for-Branches.jpg" alt="GST Registration for Branches"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-registration-for-branches/">GST Registration for Branches</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-registration-for-branches/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2018-01-04T10:17:25+00:00">4th January 2018</time><time class="modify-date hide hidden updated" datetime="2018-01-04T10:17:25+00:00">4th January 2018</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-registration-for-branches/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>In any tax system, registration is the most fundamental requirement for identification of tax payers ensuring tax compliance in...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15123" title="Like this"><span class="item-likes-count">7</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-registration-for-branches/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15089" class="post-item post-15089 post type-post status-publish format-standard hentry category-gst">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/offences-and-penalties-under-gst/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2017/12/Offences-and-Penalties-under-GST.jpg" alt="Offences and Penalties under GST"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/offences-and-penalties-under-gst/">Offences and Penalties under GST</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/offences-and-penalties-under-gst/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2017-12-18T10:39:49+00:00">18th December 2017</time><time class="modify-date hide hidden updated" datetime="2017-12-18T12:28:11+00:00">18th December 2017</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/offences-and-penalties-under-gst/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>Offence in general means a breach of Law or Act or any illegal act and penalty is defined as...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15089" title="Like this"><span class="item-likes-count">4</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/offences-and-penalties-under-gst/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15072" class="post-item post-15072 post type-post status-publish format-standard hentry category-gst">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/interest-on-gst-late-payment/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2017/11/interest-on-gst.jpg" alt="Interest on GST late payment"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/interest-on-gst-late-payment/">Interest on GST late payment</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/interest-on-gst-late-payment/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2017-11-29T10:59:15+00:00">29th November 2017</time><time class="modify-date hide hidden updated" datetime="2017-11-29T16:43:28+00:00">29th November 2017</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/interest-on-gst-late-payment/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>Every person who is liable to pay tax under GST fails to pay the tax or any part thereof...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15072" title="Like this"><span class="item-likes-count">4</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/interest-on-gst-late-payment/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15065" class="post-item post-15065 post type-post status-publish format-standard hentry category-gst">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-transition-provisions/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2017/11/GST-Transition-Provisions.jpg" alt="TRANSITION PROVISIONS UNDER GST"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-transition-provisions/">TRANSITION PROVISIONS UNDER GST</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-transition-provisions/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2017-11-24T02:09:33+00:00">24th November 2017</time><time class="modify-date hide hidden updated" datetime="2017-11-29T16:44:05+00:00">29th November 2017</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-transition-provisions/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>GST is a multi-stage value added tax on consumption of goods or services or both. Transition provisions are incorporated...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15065" title="Like this"><span class="item-likes-count">3</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-transition-provisions/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15055" class="post-item post-15055 post type-post status-publish format-standard hentry category-gst">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-invoice/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2017/11/GST-Invoice.jpg" alt="How to Invoice under GST?"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-invoice/">How to Invoice under GST?</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-invoice/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2017-11-18T23:09:19+00:00">18th November 2017</time><time class="modify-date hide hidden updated" datetime="2017-11-18T23:09:19+00:00">18th November 2017</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-invoice/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>In India, Every business needs to know about the GST Invoice rules. Generally, an invoice is a commercial instrument...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15055" title="Like this"><span class="item-likes-count">3</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-invoice/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		
+	<article id="post-15029" class="post-item post-15029 post type-post status-publish format-standard hentry category-gst">
+	<div class="post-content animated animate-when-almost-visible el-appear">
+		
+		<div class="post-image"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-returns-due-dates-gst-law/" class="element-wrap"><img src="http://www.reachaccountant.com/wp-content/uploads/2017/10/GST-Return-1.jpg" alt="What are the returns to be filed under GST?"><span class="hover-element"><i>+</i></span></a></div><!--end post-image-->		
+						
+		<div class="post-header">
+			
+						<h3 class="post-title entry-title"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-returns-due-dates-gst-law/">What are the returns to be filed under GST?</a></h3>
+			
+                <span class="post-meta">
+                    <small class="meta-author author vcard"><a class="url fn n" href="https://www.reachaccountant.com/erp-software-pos-software-blog/author/kavitha/" title="View all POSTS by Kavitha" rel="author"> <span class="author-name">Kavitha</span></a></small>, <small><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-returns-due-dates-gst-law/" rel="bookmark" class="post-time"><time class="entry-date" datetime="2017-11-16T10:25:41+00:00">16th November 2017</time><time class="modify-date hide hidden updated" datetime="2017-11-16T10:27:10+00:00">16th November 2017</time></a></small>, <small class="meta-category"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/category/gst/" rel="category tag">GST</a></small>, <small class="meta-comment-count"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-returns-due-dates-gst-law/#comments">0 <i class="icon-chat-1 hover-tip" data-original-title="This article has 0 comments" data-toggle="tooltip" data-placement="top"></i></a></small>                </span>
+
+		</div><!--end post-header-->
+		
+				
+						<div class="post-info">
+
+				<div class="entry-summary">
+					<p>Under GST, a regular taxpayer needs to furnish monthly returns and one annual return. There are separate returns for...</p>				</div><!-- .entry-summary -->
+
+			</div><!--end post-info-->
+						
+				
+				
+		<div class="post-footer">
+			<small>
+				<a href="#" class="item-likes" id="item-likes-15029" title="Like this"><span class="item-likes-count">2</span> <span class="item-likes-postfix">likes</span></a>
+				<a href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-returns-due-dates-gst-law/"><span class="muted pull-right">Read more</span></a>
+			</small>
+		</div><!--end post-footer-->
+
+	</div><!--end post-content-->
+	</article>
+
+		</div>
+		
+
+	<nav class="pagination-nav clear" role="navigation"><ul class="pagination"><li><span class='page-numbers current'>1</span></li><li><a class='page-numbers' href='https://www.reachaccountant.com/erp-software-pos-software-blog/page/2/'>2</a></li><li><a class='page-numbers' href='https://www.reachaccountant.com/erp-software-pos-software-blog/page/3/'>3</a></li><li><span class="page-numbers dots">&hellip;</span></li><li><a class='page-numbers' href='https://www.reachaccountant.com/erp-software-pos-software-blog/page/84/'>84</a></li><li><a class="next page-numbers" href="https://www.reachaccountant.com/erp-software-pos-software-blog/page/2/">&raquo;</a></li></ul></nav><!-- .navigation -->        
+
+				<div class="kleo-page-bottom"><style type="text/css">
+
+.main-color .btn-highlight{
+position: absolute;
+    right: 61%;
+    bottom: 45% !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+.btn-lg{
+    padding: 5px 10px !important ;
+    font-size: 13px;
+}
+.main-color .btn-highlight{
+bottom: 45%  !important;
+right: 48% !important;
+}
+
+}
+</style></div>
+				</div><!--end wrap-content-->
+			</div><!--end main-page-template-->
+			
+<div class="sidebar sidebar-main col-sm-3 sidebar-right">
+	<div class="inner-content widgets-container">
+		<div id="search-5" class="widget widget_search"><form role="search" method="get" id="searchform" action="https://www.reachaccountant.com/">
+	
+	<div class="input-group">
+		<input name="s" id="s" autocomplete="off" type="text" class="ajax_s form-control input-sm" value="">
+		<span class="input-group-btn">
+            <input type="submit" value="Search" id="searchsubmit" class="button">
+		</span>
+	</div>
+
+</form></div><div id="kleo_recent_posts-2" class="widget widget_kleo_recent_posts"><h4 class="widget-title">Read More Exciting Content here</h4>
+			<div>
+
+				<ul class='news-widget-wrap'>
+
+											<li class="news-content">
+							<a class="news-link" href="https://www.reachaccountant.com/erp-software-pos-software-blog/billionaire-guide-workshop-software-helps-get-rich/">
+																										<span class="news-thumb"><img src="https://www.reachaccountant.com/wp-content/uploads/2019/12/moiboo-workshop-software.jpg" alt="" title=""></span>
+									<span class="news-headline">The Billionaire Guide On Workshop Software That Helps You Get Rich										<small class="news-time">30th December 2019</small></span>
+
+																			<span class="news-excerpt"><p>Workshop business is the most profitable business and is considered to be a good money-making ventur...</p></span>
+									
+								
+							</a>
+
+						</li>
+											<li class="news-content">
+							<a class="news-link" href="https://www.reachaccountant.com/erp-software-pos-software-blog/top-5-bookeeping-softwares-india/">
+																										<span class="news-thumb"></span>
+									<span class="news-headline">TOP-5 BOOKEEPING SOFTWARES IN INDIA										<small class="news-time">12th December 2019</small></span>
+
+																			<span class="news-excerpt"><p>Top features of Reach : Accounting Purchase Managment Customer Managment Vendor Managment Automatic ...</p></span>
+									
+								
+							</a>
+
+						</li>
+											<li class="news-content">
+							<a class="news-link" href="https://www.reachaccountant.com/erp-software-pos-software-blog/best-gst-software-in-india/">
+																										<span class="news-thumb"><img src="http://www.reachaccountant.com/wp-content/uploads/2018/01/Best-GST-Software.jpg" alt="" title=""></span>
+									<span class="news-headline">Best GST Software In India										<small class="news-time">10th January 2018</small></span>
+
+																			<span class="news-excerpt"><p>Which is the Best GST Software In India ? With the introduction of Goods and Service Tax, various st...</p></span>
+									
+								
+							</a>
+
+						</li>
+											<li class="news-content">
+							<a class="news-link" href="https://www.reachaccountant.com/erp-software-pos-software-blog/input-tax-credit-under-gst/">
+																										<span class="news-thumb"><img src="http://www.reachaccountant.com/wp-content/uploads/2018/01/Input-Tax-Credit-under-GST-1.jpg" alt="" title=""></span>
+									<span class="news-headline">Input Tax Credit under GST										<small class="news-time">5th January 2018</small></span>
+
+																			<span class="news-excerpt"><p>Input tax credit (also referred to as, “ITC”) is one of the key features of Goods and Services T...</p></span>
+									
+								
+							</a>
+
+						</li>
+											<li class="news-content">
+							<a class="news-link" href="https://www.reachaccountant.com/erp-software-pos-software-blog/gst-registration-for-branches/">
+																										<span class="news-thumb"><img src="http://www.reachaccountant.com/wp-content/uploads/2018/01/GST-Registration-for-Branches.jpg" alt="" title=""></span>
+									<span class="news-headline">GST Registration for Branches										<small class="news-time">4th January 2018</small></span>
+
+																			<span class="news-excerpt"><p>In any tax system, registration is the most fundamental requirement for identification of tax payers...</p></span>
+									
+								
+							</a>
+
+						</li>
+					
+				</ul>
+
+			</div>
+
+			</div><div id="categories-5" class="widget widget_categories"><h4 class="widget-title">Categories</h4><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="83">About Us</option>
+	<option class="level-0" value="147">Accounting</option>
+	<option class="level-0" value="78">Accounting Software</option>
+	<option class="level-0" value="84">accounting software for chartered accountants</option>
+	<option class="level-0" value="85">Accounting software for photographers</option>
+	<option class="level-0" value="1004">Automobile and used car dealers software</option>
+	<option class="level-0" value="988">Bakery software</option>
+	<option class="level-0" value="63">Best inventory management software for wholesale and distribution</option>
+	<option class="level-0" value="148">Billing</option>
+	<option class="level-0" value="149">Billing Software</option>
+	<option class="level-0" value="1002">billing software</option>
+	<option class="level-0" value="150">Book Store</option>
+	<option class="level-0" value="86">bulk emails and sms</option>
+	<option class="level-0" value="151">Bulk Messaging (SMS &amp; Email)</option>
+	<option class="level-0" value="80">Business Problems</option>
+	<option class="level-0" value="152">Business Taxes</option>
+	<option class="level-0" value="1015">Cafe an bakery software</option>
+	<option class="level-0" value="860">Chatbots</option>
+	<option class="level-0" value="153">Chit Fund Management Software</option>
+	<option class="level-0" value="87">cloud tools</option>
+	<option class="level-0" value="88">Compare</option>
+	<option class="level-0" value="154">Consignment Inventory Management Software</option>
+	<option class="level-0" value="1008">consultants</option>
+	<option class="level-0" value="89">Corporate Procedures</option>
+	<option class="level-0" value="155">CRM Software</option>
+	<option class="level-0" value="90">Customer Testimonial</option>
+	<option class="level-0" value="156">Data Security</option>
+	<option class="level-0" value="1011">data security</option>
+	<option class="level-0" value="157">Data Sharing</option>
+	<option class="level-0" value="1018">Diamond</option>
+	<option class="level-0" value="1103">Diamond Inventory</option>
+	<option class="level-0" value="91">E-Commerce</option>
+	<option class="level-0" value="74">ERP Software</option>
+	<option class="level-0" value="158">Event Management Software</option>
+	<option class="level-0" value="22">Events</option>
+	<option class="level-0" value="159">Field Service Engineer Management Software</option>
+	<option class="level-0" value="161">Food Processing</option>
+	<option class="level-0" value="162">Furniture Manufacturing</option>
+	<option class="level-0" value="163">Gold Smith Management Software</option>
+	<option class="level-0" value="980">GST</option>
+	<option class="level-0" value="164">GST Software</option>
+	<option class="level-0" value="1001">GST software</option>
+	<option class="level-0" value="1085">GSTR</option>
+	<option class="level-0" value="1089">GSTR 1</option>
+	<option class="level-0" value="1091">GSTR 2</option>
+	<option class="level-0" value="1094">GSTR3</option>
+	<option class="level-0" value="165">Import &amp; Export</option>
+	<option class="level-0" value="166">Inventory Management</option>
+	<option class="level-0" value="167">Inventory software</option>
+	<option class="level-0" value="168">Invoice Software</option>
+	<option class="level-0" value="93">Jewellery</option>
+	<option class="level-0" value="169">Jewellery Software</option>
+	<option class="level-0" value="1005">Job work and contractors</option>
+	<option class="level-0" value="170">Loyalty Management Software</option>
+	<option class="level-0" value="850">magazine</option>
+	<option class="level-0" value="94">marketing tips</option>
+	<option class="level-0" value="171">Mobile App</option>
+	<option class="level-0" value="95">mobile apps</option>
+	<option class="level-0" value="172">Multi Branch</option>
+	<option class="level-0" value="173">Multi Linguistic</option>
+	<option class="level-0" value="1022">multiple branch</option>
+	<option class="level-0" value="1023">multiple company</option>
+	<option class="level-0" value="96">NGO</option>
+	<option class="level-0" value="97">Offers</option>
+	<option class="level-0" value="174">Online Trade</option>
+	<option class="level-0" value="98">Our Products</option>
+	<option class="level-0" value="99">Packers &amp; Movers</option>
+	<option class="level-0" value="175">Paper Less</option>
+	<option class="level-0" value="100">POS Software</option>
+	<option class="level-0" value="176">Pre Booking</option>
+	<option class="level-0" value="102">Project Management Software</option>
+	<option class="level-0" value="103">Purchase Management Software</option>
+	<option class="level-0" value="104">Quality Control Software</option>
+	<option class="level-0" value="1003">Reach POS software</option>
+	<option class="level-0" value="1013">Reach Robo</option>
+	<option class="level-0" value="105">Reconcile</option>
+	<option class="level-0" value="106">Repair Management Software</option>
+	<option class="level-0" value="1014">Restaurant</option>
+	<option class="level-0" value="107">Retail Business</option>
+	<option class="level-0" value="59">Sales &amp; Service</option>
+	<option class="level-0" value="108">Sales Order Management Software</option>
+	<option class="level-0" value="109">Small Business</option>
+	<option class="level-0" value="110">Software for Air conditioner Service</option>
+	<option class="level-0" value="111">Software for Architects</option>
+	<option class="level-0" value="112">Software for Baby and Toy Shops</option>
+	<option class="level-0" value="113">Software for Bathroom Fitting Showrooms</option>
+	<option class="level-0" value="114">Software for Battery Service</option>
+	<option class="level-0" value="115">Software for Builder</option>
+	<option class="level-0" value="116">Software for Chemical Manufacturers</option>
+	<option class="level-0" value="117">Software for Computer Sales and Service</option>
+	<option class="level-0" value="118">Software for Contractors</option>
+	<option class="level-0" value="119">Software for Diamond Wholesalers</option>
+	<option class="level-0" value="120">Software for Electronic Manufacturers</option>
+	<option class="level-0" value="121">Software for Food and Beverage Industry</option>
+	<option class="level-0" value="122">Software for Franchisee Management</option>
+	<option class="level-0" value="123">Software for Furniture Stores</option>
+	<option class="level-0" value="124">Software for Industrial Grease and Lubricant Manufacturers</option>
+	<option class="level-0" value="125">Software for Interior decorators</option>
+	<option class="level-0" value="127">Software for Kitchen Equipment Dealers</option>
+	<option class="level-0" value="128">software for large companies</option>
+	<option class="level-0" value="129">Software for Laundry shop Management</option>
+	<option class="level-0" value="130">Software for Mobile Phone Service</option>
+	<option class="level-0" value="131">Software for Organic Fruit and Vegetable Shops</option>
+	<option class="level-0" value="132">Software for Paint and Coating Manufacturers</option>
+	<option class="level-0" value="133">Software for Pest Control Service Business</option>
+	<option class="level-0" value="134">software for Piston and Valve Manufacturers</option>
+	<option class="level-0" value="135">Software for Pump Manufacturers</option>
+	<option class="level-0" value="136">Software for Real estate</option>
+	<option class="level-0" value="1000">Software for textile store</option>
+	<option class="level-0" value="137">Software for Trade and Distribution Business</option>
+	<option class="level-0" value="138">Software for Water Purifier Business</option>
+	<option class="level-0" value="998">supermarket</option>
+	<option class="level-0" value="139">Surgical Business</option>
+	<option class="level-0" value="989">Takeaway software</option>
+	<option class="level-0" value="140">Tally</option>
+	<option class="level-0" value="142">Tracking</option>
+	<option class="level-0" value="1">Uncategorised</option>
+	<option class="level-0" value="25">Uncategorized</option>
+	<option class="level-0" value="143">Utensils Manufacturing</option>
+	<option class="level-0" value="144">Work flow Management Software</option>
+	<option class="level-0" value="1010">workshop</option>
+	<option class="level-0" value="1119">workshop software</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "https://www.reachaccountant.com/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+</div>	</div><!--end inner-content-->
+	</div><!--end sidebar-->
+
+			</div><!--end .row-->		</div><!--end .container-->
+  
+</section>
+<!--END MAIN SECTION-->
+
+			
+		</div><!-- #main -->
+
+
+  
+  <footer class="section-sm bg-tertiary">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <div class="footer-widget">
+            <h5 class="mb-3 text-primary font-secondary">Our Products</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="compare.html">Compare</a>
+              </li>
+              <li class="mb-2"><a href="see-how-its-work.html">See How It Works</a>
+              </li>
+              <li class="mb-2"><a href="customers-review.html">Customers Review</a>
+              </li>
+              <li class="mb-2"><a href="brochures.html">Brochures</a>
+              </li>
+            </ul>
+            <h5 class="mb-3 text-primary font-secondary">Training</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#!">Training in English</a>
+              </li>
+              <li class="mb-2"><a href="#!">Training in Hindi</a>
+              </li>
+            </ul>
+            <h5 class="mb-3 text-primary font-secondary">Partnership</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="account-partner.html">Accounting Partner</a>
+              </li>
+              <li class="mb-2"><a href="reseller.html">Reseller</a>
+              </li>
+              <li class="mb-2"><a href="#">Developer</a>
+              </li>
+            </ul>
+  
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <div class="footer-widget">
+            <h5 class="mb-3 text-primary font-secondary">Other Products</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="https://www.moiboo.com/en-us/index.php">Moiboo</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/accounting-software/">Accounting Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/pos-software/">POS Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/gst-software/">GST Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/erp-software/">ERP Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/invoicing-software/">Invoicing Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/best-billing-software/">Billing Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/inventory-management-software/">Inventory Management Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/supply-chain-management-software/">Supply Chain Management Software</a>
+              </li>
+              <li class="mb-2"><a href="https://www.reachaccountant.com/dealer-management-software/">Dealer Management Software</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-4 col-6 mb-4">
+          <div class="footer-widget">
+            <h5 class="mb-3 text-primary font-secondary">Our Company</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="about.html">About Us</a>
+              </li>
+              <li class="mb-2"><a href="contact-us.html">Contact Us</a>
+              </li>
+              <li class="mb-2"><a href="#!">Blog</a>
+              </li>
+            </ul>
+            <h5 class="mb-3 text-primary font-secondary">Our Policies</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="security-protocol.html">Security Protocols</a>
+              </li>
+              <li class="mb-2"><a href="terms-service.html">Terms of Use</a>
+              </li>
+              <li class="mb-2"><a href="#!">Privacy Policy</a>
+              </li>
+              <li class="mb-2"><a href="#!">Scope of Services</a>
+              </li>
+            </ul>        
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 newsletter-form">
+          <div class="bg-tertiary" style="padding: 35px;">
+            <h5 class="mb-4 text-primary font-secondary">Subscribe</h5>
+            <div class="pe-0 pe-xl-5">
+              <form action="#!" method="post" name="mc-embedded-subscribe-form" target="_blank">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control shadow-none bg-white border-end-0" placeholder="Email address"> <span class="input-group-text border-0 p-0">
+                      <button class="input-group-text border-0 bg-primary" type="submit" name="subscribe"
+                        aria-label="Subscribe for Newsletter"><i class="fas fa-arrow-right"></i></button>
+                    </span>
+                </div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text" name="b_463ee871f45d2d93748e77cad_a0a2c6d074" tabindex="-1">
+                </div>
+              </form>
+            </div>
+            <p class="mb-0"><b>Address</b>
+              <br>One Indiabulls Park,
+              <br>Tower B, 6th Floor,
+              <br>No.14, 3rd Main Road,
+              <br>Ambattur, Chennai – 600 058.
+              <br><i class="bi bi-telephone-fill"></i> helpdesk@reachaccountant.com
+              <br><i class="bi bi-envelope-fill"></i> +91 9840075503</p>
+            </p>
+          </div>
+        </div>
+        <div class="row align-items-center mt-3 text-center text-md-start">
+          <div class="col-lg-4">
+            <a href="index.html">
+              <img loading="prelaod" decoding="async" class="img-fluid mb-2" width="160" src="images/logo.png" alt="Wallet">
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <ul class="list-unstyled list-inline mb-0 text-lg-center">
+              <li class="list-inline-item me-4"><a class="text-black" href="privacy-policy.html"> <p class="mt-4">© 2020 www.reachaccountant.com</p> </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
+            <ul class="list-unstyled list-inline mb-0 social-icons">
+              <li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-black" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item me-3"><a title="Explorer Instagram Profile" class="text-black" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </footer>
+  
+  
+  <!-- # JS Plugins -->
+  
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/scrollmenu/scrollmenu.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+  <script src="js/countrycode.js"></script>
+  
+  </body>
+  </html>
