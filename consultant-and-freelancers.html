@@ -3,17 +3,24 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Contractor Business Software</title>
+	<title>Freelance Accounting Software</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 	<meta name="description" content="This is meta description">
-	<meta name="author" content="Themefisher">
+	<meta name="author" content="Thereachaccountant">
 	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+  
+  <!-- theme meta -->
+  <meta name="theme-name" content="wallet" />
 
 	<!-- # Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Country code phone input -->
+  <link rel="stylesheet" href="css/countrycode.css">
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 
 	<!-- # CSS Plugins -->
 	<link rel="stylesheet" href="plugins/slick/slick.css">
@@ -22,20 +29,22 @@
 	<link rel="stylesheet" href="plugins/font-awesome/solid.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-   <!-- Country code phone input --> 
-   <link rel="stylesheet" href="css/countrycode.css">   
-   <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
-
 	<!-- # Main Style Sheet -->
 	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/styleh.css">
-    <link rel="stylesheet" href="css/planstyle.css">
+  <link rel="stylesheet" href="css/styleh.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- slick slider -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 </head>
 
 <body>
 
 <!-- navigation -->
 <header class="navigation bg-tertiary">
+  
   <nav class="navbar navbar-expand-xl navbar-light text-center py-3">
     <div class="container">
       <a class="navbar-brand" href="index.html">
@@ -47,42 +56,42 @@
         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
           <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item"> <a class="nav-link" href="about.html">About</a>
+          <li class="nav-item"> <a class="nav-link" href="about-the-company.html">About</a>
           </li>
           <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Who Can Use?</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <ul>
                   <li><a class="dropdown-item" href="#">Retail</a></li>
-                  <li><a class="dropdown-item" href="supermarket.html">Super Market</a></li>
-                  <li><a class="dropdown-item" href="textile-store.html">Textile Store</a></li>
-                  <li><a class="dropdown-item" href="mobile-shop.html">Mobile Shop</a></li>
-                  <li><a class="dropdown-item" href="jewellery-store.html">Jewellery Store</a></li>
-                  <li><a class="dropdown-item" href="furniture-store.html">Furniture Store</a></li>
-                  <li><a class="dropdown-item" href="cafe-bakery.html">Cafe & Bakery</a></li>
+                  <li><a class="dropdown-item" href="supermarket-billing-software.html">Super Market</a></li>
+                  <li><a class="dropdown-item" href="textile-software.html">Textile Store</a></li>
+                  <li><a class="dropdown-item" href="service-centres.html">Mobile Shop</a></li>
+                  <li><a class="dropdown-item" href="jewellery-software.html">Jewellery Store</a></li>
+                  <li><a class="dropdown-item" href="furniture-store-software.html">Furniture Store</a></li>
+                  <li><a class="dropdown-item" href="cafe-bakery-software.html">Cafe & Bakery</a></li>
               </ul>
               <ul>
                   <li><a class="dropdown-item" href="#">Automobile</a></li>
-                  <li><a class="dropdown-item" href="used-car-dealer.html">Used Car Dealer</a></li>
-                  <li><a class="dropdown-item" href="car-workshop.html">Car Workshop</a></li>
-                  <li><a class="dropdown-item" href="car-rental.html">Car Rental</a></li>
-                  <li><a class="dropdown-item" href="auto-spare-part-dealer.html">Auto Spare Parts Dealer</a></li>
+                  <li><a class="dropdown-item" href="used-car-dealer-management-software.html">Used Car Dealer</a></li>
+                  <li><a class="dropdown-item" href="workshop-software.html">Car Workshop</a></li>
+                  <li><a class="dropdown-item" href="car-rental-software.html">Car Rental</a></li>
+                  <li><a class="dropdown-item" href="electronics-spare-parts-dealers.html">Auto Spare Parts Dealer</a></li>
               </ul>
               <ul>
                   <li><a class="dropdown-item" href="#">Manufacturer & Distributor</a></li>
-                  <li><a class="dropdown-item" href="wholesaler-distributor.html">Wholesaler & Distributor</a></li>
-                  <li><a class="dropdown-item" href="importer-exporter.html">Importer & Exporter</a></li>
-                  <li><a class="dropdown-item" href="e-commerce.html">E-commerce</a></li>
-                  <li><a class="dropdown-item" href="contractor.html">Contractor</a></li>
-                  <li><a class="dropdown-item" href="small-manufacturer.html">Small Manufacturer</a></li>
+                  <li><a class="dropdown-item" href="wholesale-distribution-software.html">Wholesaler & Distributor</a></li>
+                  <li><a class="dropdown-item" href="importers-exporters.html">Importer & Exporter</a></li>
+                  <li><a class="dropdown-item" href="e-commerce-backend.html">E-commerce</a></li>
+                  <li><a class="dropdown-item" href="job-work-contract.html">Contractor</a></li>
+                  <li><a class="dropdown-item" href="manufacturer-software.html">Small Manufacturer</a></li>
               </ul>
               <ul>
                 <li><a class="dropdown-item" href="#">Services</a></li>
-                <li><a class="dropdown-item" href="s-accountant.html">Accountant</a></li>
-                <li><a class="dropdown-item" href="s-repair-service-center.html">Repair & Service Center</a></li>
-                <li><a class="dropdown-item" href="s-rental-business.html">Rental Business</a></li>
-                <li><a class="dropdown-item" href="s-consultant-agent.html">Consultant & Agent</a></li>
-                <li><a class="dropdown-item" href="s-transporter.html">Transporter</a></li>
-              </ul>
+                <li><a class="dropdown-item" href="accountant.html">Accountant</a></li>
+                <li><a class="dropdown-item" href="repair-and-servicing.html">Repair & Service Center</a></li>
+                <li><a class="dropdown-item" href="rentals-subscription.html">Rental Business</a></li>
+                <li><a class="dropdown-item" href="consultant-and-freelancers.html">Consultant & Agent</a></li>
+                <li><a class="dropdown-item" href="transporters.html">Transporter</a></li>
+            </ul>
           </div>
           </li>
 
@@ -97,9 +106,9 @@
       </div>
     </div>
   </nav>
+  
 </header>
 <!-- /navigation -->
-
 <div class="modal talkExpertModal fade" id="talkExpert" tabindex="-1" aria-labelledby="talkExpertLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content bg-tertiary">
@@ -185,7 +194,7 @@
   </div>
 </div>
 
-  <div class="modal videoViewModal fade" id="videoView" tabindex="-1" aria-labelledby="videoViewLabel" aria-hidden="true">
+  <div class="modal videoViewModal fade" id="videoView" tabindex="-1" aria-labelledby="videoView" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header border-bottom-0">
@@ -194,23 +203,21 @@
         </div>
         <div class="modal-body">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item"  width="100%" height="400" src="https://www.youtube.com/embed/q1lsqau0reE?si=6urMdBj-1q7p1QDW" title="YouTube video player" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item"  width="100%" height="400" src="https://www.youtube.com/embed/v5GUtGlI3So?si=zvU1JgnADnEi4isM" title="YouTube video player" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
-  <section class="bg-tertiary position-relative overflow-hidden">
+
+  <section class="pt-4 pb-4 bg-tertiary">
     <div class="container mt-4 mb-4">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-lg-5 mb-5 mb-lg-0">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5">
           <div class="section-title">
-            <h1 class="text-capitalize mb-4">Contractor 
-              <br>Business Software</h1>
-            <p>
-              <p>Our Contractor Business Software has the features needed to fully automate your wholesale and distribution business.</p>
+            <h1>Freelance Accounting Software</h1>
+            <p>Reach Freelance Accounting software is ideal for Freelancers, Agents, Consultants, Web designers, and any startup.</p>
+              <p>
                 <a type="button"
                 class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#videoView"><span><i class="bi bi-camera-video-fill"></i></span> Video 
                 Overview</a>
@@ -218,15 +225,109 @@
             class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
             Expert</a>
             </p>
+            <p class="mt-4">Reach software which suits 21 different business end to end.</p>
+            <div class="row slider-container mt-4 ms-1">               
+                <div class="col-md-1 product">
+                     <a href="supermarket.html" data-toggle="tooltip" data-placement="top" title="Supermarket" target="_blank" >
+                      
+                        <img src="images/slider/super-market.png" width="50" alt="super-market">
+                     </a>
+                </div>
+                <div class="col-md-1 product">
+                    <a href="textile-store.html" data-toggle="tooltip" data-placement="top" title="Textile shop" target="_blank" >
+                        <img src="images/slider/textile.png" width="50" alt="textile-store">
+                     </a>
+                </div>
+                <div class="col-md-1 product">
+                    <a href="mobile-shop.html" data-toggle="tooltip" data-placement="top" title="Mobile shop" target="_blank">
+                        <img src="images/slider/mobile_shop.png" width="50" alt="mobile-shop">
+                     </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="jewellery-store.html" data-toggle="tooltip" data-placement="top" title="Jewellery shop" target="_blank">
+                    <img src="images/slider/jewellery.png" width="50" alt="jewellery-store">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="furniture-store.html" data-toggle="tooltip" data-placement="top" title="Furniture shop" target="_blank">
+                    <img src="images/slider/furniture.png" width="60" alt="furniture">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="cafe-bakery.html" data-toggle="tooltip" data-placement="top" title="Cafe shop" target="_blank">
+                    <img src="images/slider/bakery.png" width="50" alt="bakery">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="used-car-dealer.html" data-toggle="tooltip" data-placement="top" title="Usedcar dealer" target="_blank">
+                    <img src="images/slider/car-deal.png" width="50" alt="car-dealer">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="car-workshop.html" data-toggle="tooltip" data-placement="top" title="Car workshop" target="_blank">
+                    <img src="images/slider/car-shop.png" width="50" alt="car-workshop">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="car-rental.html" data-toggle="tooltip" data-placement="top" title="Car rental" target="_blank">
+                    <img src="images/slider/car_rental.png" width="50" alt="car-rental">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="auto-spare-part-dealer.html" data-toggle="tooltip" data-placement="top" title="Auto spare parts" target="_blank">
+                    <img src="images/slider/auto-spair-parts.png" width="50" alt="auto-spair-parts">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="wholesaler-distributor.html" data-toggle="tooltip" data-placement="top" title="Wholesale dealer"  target="_blank">
+                    <img src="images/slider/wholesaler.png" width="50" alt="wholesaler">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="importer-exporter.html" data-toggle="tooltip" data-placement="top" title="Importer and Exporter" target="_blank">
+                    <img src="images/slider/import-export.png" width="50" alt="import-export">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="e-commerce.html" data-toggle="tooltip" data-placement="top" title="E-commerce" target="_blank">
+                    <img src="images/slider/e-commerce.png" width="50" alt="e-commerce">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="contractor.html" data-toggle="tooltip" data-placement="top" title="Contractor" target="_blank">
+                    <img src="images/slider/contractor.png" width="50" alt="contractor">
+                 </a>
+               </div>
+               <div class="col-md-1 product">
+                <a href="small-manufacturer.html" data-toggle="tooltip" data-placement="top" title="Small-manufacturer" target="_blank">
+                    <img src="images/slider/s-manufacturer.png" width="50" alt="Manufacturer">
+                 </a>
+               </div>
+             </div>
+
           </div>
         </div>
-        <div class="col-lg-7 text-center text-lg-end">
-          <img loading="lazy" decoding="async" src="images/contractor.jpg" alt="About Ourselves" class="img-fluid rounded">
+        <div class="col-lg-6 mt-5 mt-lg-0">
+            <img loading="lazy" decoding="async" src="images/consultant.jpg" alt="video thumb" class="rounded-lg w-100">
         </div>
       </div>
     </div>
-    </section>
-  
+  </section>
+  <div class="modal fade rounded overflow-hidden" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content border-0">
+        <div class="text-center p-3">
+          <button type="button" class="bg-transparent border-0" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="ratio ratio-16x9 rounded-bottom overflow-hidden">
+            <iframe src="" id="showVideo" allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <section class="loan-steps bg-tertiary pt-4 pb-4">
     <div class="container mb-4">
       <div class="row justify-content-center align-items-center">
@@ -238,171 +339,124 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-10">
-          <div class="row justify-content-center">
-            <div class="step-item col-lg-4 col-md-6">
-              <div class="text-center">
-                <p class="count"><i class="bi bi-brilliance"></i></p>
-                <h3 class="mb-3">Single Software</h3>
-                <p class="mb-0">Unlock the power of Reach: where Accounting, GST, POS, Inventory, and CRM seamlessly come together in one powerhouse software for ultimate convenience and efficiency!</p>
-              </div>
-            </div>
-            <div class="step-item col-lg-4 col-md-6">
-              <div class="text-center">
-                <p class="count"><i class="bi bi-building-gear"></i></p>
-                <h3 class="mb-3">Tailored Solutions</h3>
-                <p class="mb-0">At Reach Accountant, we craft personalized solutions designed to perfectly suit your business needs. Tailored for success!</p>
-              </div>
-            </div>
-            <div class="step-item col-lg-4 col-md-6">
-              <div class="text-center">
-                <p class="count"><i class="bi bi-clipboard2-data-fill"></i> </p>
-                <h3 class="mb-3">Profitability Insights</h3>
-                <p class="mb-0">Unlock the power of Profitability Insights with Reach Accountant, revealing your success branch by branch! 🚀</p>
-              </div>
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-6 text-center text-lg-end">
+          <img loading="lazy" decoding="async" src="images/compare1.png" alt="Compariosn with other software" class="img-fluid rounded">
+        </div>
+        <div class="col-lg-5 text-center text-lg-end">
+          <img loading="lazy" decoding="async" src="images/compare2.png" alt="Compariosn with other software" class="img-fluid rounded">
+        </div>
+        </div>
+        <div class="row mt-2 align-items-center justify-content-between pt-4">
+          <div class="section-title text-center">
+            <a type="button"
+            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
+            Expert</a>  <a type="button"
+            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
+            </a>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="pt-4 pb-4" style="background-color: #E6F7FF;">
+          <div class="container" >
+        <div class="row align-items-center pt-4 pb-4">
+          <div class="col-lg-6 text-center text-lg-end">
+            <img loading="lazy" decoding="async" src="images/features/gst-preparation.png" width="500px" height="333px" alt="Invoices" class="img-fluid pe-2">
+          </div>
+          <div class="col-lg-5">
+            <div class="section-title">
+              <p class="text-primary text-uppercase fw-bold mb-3">GST</p>
+              <h1 class="text-capitalize mb-4">GST Preparation</h1>
+              <p class="mb-4">With the GST Plugin, you can easily create and assign tax codes to your ledgers and automate your tax filing process. You can save time and ensure accuracy with the GST Plugin. No more hassle and confusion with GST filing.  
+                <br></p> <a type="button"
+                class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
+                Expert</a> <a type="button"
+                class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
+                </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-    <section class="position-relative overflow-hidden">
-      <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-5">
-              <div class="section-title">
-                <p class="text-primary text-uppercase fw-bold mb-3">Dashboard</p>
-                <h1 class="text-capitalize mb-4">Gain insights from dashboard</h1>
-                <p class="mb-4">A user-friendly dashboard that provides you with a real-time overview of the Business and enables you to see every detail. The dashboard will assist you in making smart and informed decisions.
-                  </p> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
-                  Expert</a>  <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
-                  </a>
-              </div>
-            </div>
-            <div class="col-lg-7 text-center text-lg-end">
-              <img loading="lazy" decoding="async" src="images/features/s-f1.svg" alt="Billing" class="img-fluid mb-4">
-            </div>
-          </div>
-          </div>
-          </section>
-          <section class="pt-4 pb-4" style="background-color: #E6F7FF;">
-            <div class="container" >
-          <div class="row align-items-center pt-4 pb-4">
-            <div class="col-lg-6 text-center text-lg-end">
-              <img loading="lazy" decoding="async" src="images/features/appointments.png" width="500px" height="333px" alt="Sales" class="img-fluid pe-2">
-            </div>
-            <div class="col-lg-5">
-              <div class="section-title">
-                <p class="text-primary text-uppercase fw-bold mb-3">Appointments</p>
-                <h1 class="text-capitalize mb-4">Book Appointments</h1>
-                <p class="mb-4">Reach enables you to schedule appointments for your clients in an efficient and convenient way. You can manage your time better and also keep your clients updated about their upcoming appointments. 
-                  <br></p> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
-                  Expert</a> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
-                  </a>
-              </div>
-            </div>
-          </div>
-          </div>
-          </section>
-          <section class="pt-4 pb-4">
-            <div class="container" >
-          <div class="row align-items-center mt-4">
-            <div class="col-lg-5">
-              <div class="section-title">
-                <p class="text-primary text-uppercase fw-bold mb-3">Invoices</p>
-                <h1 class="text-capitalize mb-4">Recurring Invoices</h1>
-                <p class="mb-4">Allows you to generate invoices for your rental contract that can be automatically replicated for the following contract term.
-                  <br></p> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
-                  Expert</a> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
-                  </a>
-              </div>
-            </div>
-            <div class="col-lg-6 text-center text-lg-end">
-              <img loading="lazy" decoding="async" src="images/features/invoice.png" width="500px" height="333px" alt="Purchase" class="img-fluid mb-4">
-            </div>
-          </div>
-          </div>
-          </section>
-          <section class="pt-4 pb-4" style="background-color: #E6F7FF;">
-            <div class="container" >
-          <div class="row align-items-center">
-            <div class="col-lg-6 text-center text-lg-end">
-              <img loading="lazy" decoding="async" src="images/features/whatsapp.png" width="500px" height="333px" alt="Invoices" class="img-fluid">
-            </div>
-            <div class="col-lg-5">
-              <div class="section-title">
-                <p class="text-primary text-uppercase fw-bold mb-3">Invoices on whatsapp</p>
-                <h1 class="text-capitalize mb-4">Whatsapp Your Invoices</h1>
-                <p class="mb-4">Impress your clients with the convenience of receiving invoices directly through WhatsApp. Cut down on printing, save time, and contribute to a greener environment by reducing paper usage.
-                  <br></p> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
-                  Expert</a> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
-                  </a>
-              </div>
-            </div>
-          </div>
-          </div>
-          </section>
-          <section class="pt-4 pb-4">
-            <div class="container" >
-          <div class="row align-items-center mt-4">
-            <div class="col-lg-5">
-              <div class="section-title">
-                <p class="text-primary text-uppercase fw-bold mb-3">Warehouse</p>
-                <h1 class="text-capitalize mb-4">Warehouse Management</h1>
-                <p class="mb-4">Efficiently oversee your warehouses by meticulously recording stock-in, stock-out, stock transfers, and re-packing activities. Minimize pilferage and gain control over your warehouse inventory for enhanced management
-                  <br></p> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
-                  Expert</a> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
-                  </a>
-              </div>
-            </div>
-            <div class="col-lg-6 text-center text-lg-end">
-              <img loading="lazy" decoding="async" src="images/features/warehouse-management.svg" width="500px" height="333px" alt="Purchase" class="img-fluid mb-4">
-            </div>
-          </div>
-          </div>
-          </section>
-          <section class="pt-4 pb-4" style="background-color: #E6F7FF;">
-            <div class="container" >
-          <div class="row align-items-center pt-4 pb-4">
-            <div class="col-lg-6 text-center text-lg-end">
-              <img loading="lazy" decoding="async" src="images/features/gst-preparation.png" width="500px" height="333px" alt="Invoices" class="img-fluid pe-2">
-            </div>
-            <div class="col-lg-5">
-              <div class="section-title">
-                <p class="text-primary text-uppercase fw-bold mb-3">GST</p>
-                <h1 class="text-capitalize mb-4">GST Preparation</h1>
-                <p class="mb-4">With the GST Plugin, you can easily create and assign tax codes to your ledgers and automate your tax filing process. You can save time and ensure accuracy with the GST Plugin. No more hassle and confusion with GST filing.  
-                  <br></p> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
-                  Expert</a> <a type="button"
-                  class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
-                  </a>
-              </div>
-            </div>
-          </div>
-        </div>
     </section>
-    
-<section class="about-section position-relative overflow-hidden pt-4 pb-4">
+  <section class=" bg-primary-light pt-4">
+	<div class="container mt-4 mb-4">
+        <div class="row justify-content-center mb-4">
+			<div class="col-12">
+				<div class="section-title text-center">
+					<h1>Features of Freelance Business Software</h1>
+                    <p>Revolutionize Your Freelance Journey! Our Software Brings Full Automation <br> to Your Business – Because Your Success Deserves Seamless Simplicity!</p>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center align-items-center">
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center icon-box-item">
+				<div class="icon icon-lg bg-transparent mb-4"><i class="bi bi-receipt text-primary"></i>
+				</div>
+				<p class="px-lg-5">Invoicing</p>
+			</div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center icon-box-item">
+				<div class="icon icon-lg bg-transparent mb-4"><i class="bi bi-bag-check-fill text-primary"></i>
+				</div>
+				<p class="px-lg-5">Expense Management</p>
+			</div>
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center icon-box-item ">
+				<div class="icon icon-lg bg-transparent mb-4"><i class="bi bi-coin fs-6 text-primary"></i><i class="bi bi-calculator-fill text-primary"></i>
+				</div>
+				<p class="px-lg-5">Accounting
+                </p>
+			</div>            
+		</div>
+       
+        <div class="row justify-content-center mt-4">
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center icon-box-item">
+				<div class="icon icon-lg bg-transparent mb-4"><i class="bi bi-cloud-check-fill text-primary"></i>
+				</div>
+				<p class="px-lg-5">Auto-Cloud Backup</p>
+			</div>
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center icon-box-item">
+				<div class="icon icon-lg bg-transparent mb-4"><i class="bi bi-buildings text-primary"></i>
+				</div>
+				<p class="px-lg-5">Multi-branch Management</p>
+			</div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center icon-box-item">
+				<div class="icon icon-lg bg-transparent mb-4"><i class="bi bi-universal-access-circle text-primary"></i>
+				</div>
+				<p class="px-lg-5">User based access restriction</p>
+			</div>
+             <div class="row justify-content-center align-items-center mt-4">
+			<div class="col-lg-4 col-md-6 mb-5 mb-lg-0 text-center icon-box-item ">
+				<div class="icon icon-lg bg-transparent mb-4"><i class="bi bi-plus fs-6 text-primary"></i><i class="bi bi-percent fs-6 text-primary"></i>
+                    <i class="bi bi-calculator text-primary"></i>
+				</div>
+				<p class="px-lg-5">GST filing</p>
+			</div>            
+		</div>  
+		</div>
+	</div>
+</section>  
+<section class="pt-2 pb-4">
+  <div class="container">
+    <div class="row mt-2 align-items-center justify-content-between">
+      <div class="section-title text-center">
+        <a type="button"
+        class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
+        Expert</a>  <a type="button"
+        class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Fix Up a Demo
+        </a>
+      </div>
+      </div>
+      </div>
+      </section> 
+<section class="about-section bg-tertiary position-relative overflow-hidden pt-4 pb-4">
   <div class="container mt-4 mb-4">
     <div class="row align-items-center">
       <div class="col-lg-5">
         <div class="section-title">
           <p class="text-primary text-uppercase fw-bold mb-3"></p>
-          <h1>Supermarket Billing Software</h1>
+          <h1>Need a Freelance Software?</h1>
           <p class="lead mb-0 mt-4">
-            <p>Supercharge your supermarket with Reach Billing Software! Elevate efficiency by 81%, enhance customer billing, curb inventory pilferage, prevent over-ordering, and optimize profitability with key management insights.</p> 
+            <p>Supercharge Your Small Business with Reach Freelance Software! Unify Your Operations, Boost Efficiency by a Remarkable 72%, and Elevate Your Business Game to New Heights!</p> 
           </p>  
           <a type="button"
           class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#talkExpert"><span><i class="bi bi-person-fill"></i></span>Talk to an
@@ -414,9 +468,41 @@
       </div>
     </div>
   </div>
+  <div class="has-shapes">
+    <svg class="shape shape-left text-light" width="381" height="443" viewBox="0 0 381 443" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M334.266 499.007C330.108 469.108 304.151 446.496 276.261 435.921C248.372 425.346 218.077 424.035 188.666 419.32C159.254 414.589 128.795 405.375 108.664 383.129C72.8533 343.535 83.3445 282.01 77.7634 228.587C69.3017 147.754 15.4873 73.3967 -58.0001 40.9907"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M349.584 485.51C345.427 455.611 319.469 433 291.58 422.425C263.69 411.85 233.395 410.538 203.984 405.823C174.573 401.092 144.114 391.878 123.982 369.632C88.1716 330.038 98.6628 268.513 93.0817 215.09C84.62 134.258 30.8056 59.8999 -42.6819 27.494"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M364.904 472.013C360.747 442.114 334.789 419.503 306.9 408.928C279.011 398.352 248.716 397.041 219.304 392.326C189.893 387.595 159.434 378.381 139.303 356.135C103.492 316.541 113.983 255.016 108.402 201.593C99.9403 120.76 46.1259 46.4028 -27.3616 13.9969"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M380.24 458.516C376.083 428.617 350.125 406.006 322.236 395.431C294.347 384.856 264.051 383.544 234.64 378.829C205.229 374.098 174.77 364.884 154.639 342.638C118.828 303.044 129.319 241.519 123.738 188.096C115.276 107.264 61.4619 32.906 -12.0255 0.500103"
+        stroke="currentColor" stroke-miterlimit="10" />
+    </svg>
+    <svg class="shape shape-right text-light" width="406" height="433" viewBox="0 0 406 433" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M101.974 -86.77C128.962 -74.8992 143.467 -43.2447 146.175 -12.7857C148.883 17.6734 142.273 48.1263 139.087 78.5816C135.916 109.041 136.681 141.702 152.351 167.47C180.247 213.314 240.712 218.81 289.413 238.184C363.095 267.516 418.962 340.253 430.36 421.687"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M118.607 -98.5031C145.596 -86.6323 160.101 -54.9778 162.809 -24.5188C165.517 5.94031 158.907 36.3933 155.72 66.8486C152.549 97.3082 153.314 129.969 168.985 155.737C196.881 201.581 257.346 207.077 306.047 226.451C379.729 255.783 435.596 328.52 446.994 409.954"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M135.241 -110.238C162.23 -98.3675 176.735 -66.7131 179.443 -36.254C182.151 -5.79492 175.541 24.6581 172.354 55.1134C169.183 85.573 169.948 118.234 185.619 144.002C213.515 189.846 273.98 195.342 322.681 214.716C396.363 244.048 452.23 316.785 463.627 398.219"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M151.879 -121.989C178.867 -110.118 193.373 -78.4638 196.081 -48.0047C198.789 -17.5457 192.179 12.9074 188.992 43.3627C185.821 73.8223 186.586 106.483 202.256 132.251C230.153 178.095 290.618 183.591 339.318 202.965C413.001 232.297 468.867 305.034 480.265 386.468"
+        stroke="currentColor" stroke-miterlimit="10" />
+    </svg>
+  </div>
 </section>
 
-</section>
+
 <section class="section testimonials overflow-hidden bg-tertiary">
   <div class="container">
     <div class="row justify-content-center">
@@ -555,6 +641,7 @@
   </div>
 </section>
 
+
 <footer class="section-sm bg-tertiary">
 	<div class="container">
 		<div class="row justify-content-between">
@@ -564,25 +651,25 @@
 					<ul class="list-unstyled">
 						<li class="mb-2"><a href="compare.html">Compare</a>
 						</li>
-						<li class="mb-2"><a href="see-how-its-work.html">See How It Works</a>
+						<li class="mb-2"><a href="see-how-its-works.html">See How It Works</a>
 						</li>
-						<li class="mb-2"><a href="customers-review.html">Customers Review</a>
+						<li class="mb-2"><a href="customer-testimonials.html">Customers Review</a>
 						</li>
-						<li class="mb-2"><a href="brochures.html">Brochures</a>
+						<li class="mb-2"><a href="download-free-brochure.html">Brochures</a>
 						</li>
 					</ul>
 					<h5 class="mb-3 text-primary font-secondary">Training</h5>
 					<ul class="list-unstyled">
-						<li class="mb-2"><a href="#!">Training in English</a>
+						<li class="mb-2"><a href="https://www.reachaccountant.com/learn-use-english/">Training in English</a>
 						</li>
-						<li class="mb-2"><a href="#!">Training in Hindi</a>
+						<li class="mb-2"><a href="https://www.reachaccountant.com/learn-use-hindi/">Training in Hindi</a>
 						</li>
 					</ul>
           <h5 class="mb-3 text-primary font-secondary">Partnership</h5>
 					<ul class="list-unstyled">
-						<li class="mb-2"><a href="account-partner.html">Accounting Partner</a>
+						<li class="mb-2"><a href="ca-partner.html">Accounting Partner</a>
 						</li>
-						<li class="mb-2"><a href="reseller.html">Reseller</a>
+						<li class="mb-2"><a href="become-a-erp-partner.html">Reseller</a>
 						</li>
             <li class="mb-2"><a href="devloper.html">Developer</a>
 						</li>
@@ -596,23 +683,23 @@
           <ul class="list-unstyled">
             <li class="mb-2"><a href="https://www.moiboo.com/en-us/index.php">Moiboo</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/accounting-software/">Accounting Software</a>
+            <li class="mb-2"><a href="accounting-software.html">Accounting Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/pos-software/">POS Software</a>
+            <li class="mb-2"><a href="pos-software.html">POS Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/gst-software/">GST Software</a>
+            <li class="mb-2"><a href="gst-software.html">GST Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/erp-software/">ERP Software</a>
+            <li class="mb-2"><a href="erp-software.html">ERP Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/invoicing-software/">Invoicing Software</a>
+            <li class="mb-2"><a href="invoicing-software.html">Invoicing Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/best-billing-software/">Billing Software</a>
+            <li class="mb-2"><a href="best-billing-software.html">Billing Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/inventory-management-software/">Inventory Management Software</a>
+            <li class="mb-2"><a href="inventory-management-software.html">Inventory Management Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/supply-chain-management-software/">Supply Chain Management Software</a>
+            <li class="mb-2"><a href="supply-chain-management.html">Supply Chain Management Software</a>
             </li>
-            <li class="mb-2"><a href="https://www.reachaccountant.com/dealer-management-software/">Dealer Management Software</a>
+            <li class="mb-2"><a href="dealer-management-software.html">Dealer Management Software</a>
             </li>
           </ul>
 				</div>
@@ -622,18 +709,18 @@
 				<div class="footer-widget">
           <h5 class="mb-3 text-primary font-secondary">Our Company</h5>
 					<ul class="list-unstyled">
-						<li class="mb-2"><a href="about.html">About Us</a>
+						<li class="mb-2"><a href="about-the-company.html">About Us</a>
 						</li>
-						<li class="mb-2"><a href="contact-us.html">Contact Us</a>
+						<li class="mb-2"><a href="contact.html">Contact Us</a>
 						</li>
-						<li class="mb-2"><a href="#!">Blog</a>
+						<li class="mb-2"><a href="https://www.reachaccountant.com/erp-software-pos-software-blog/">Blog</a>
 						</li>
 					</ul>
           <h5 class="mb-3 text-primary font-secondary">Our Policies</h5>
 					<ul class="list-unstyled">
-						<li class="mb-2"><a href="security-protocol.html">Security Protocols</a>
+						<li class="mb-2"><a href="security-protocols.html">Security Protocols</a>
 						</li>
-						<li class="mb-2"><a href="terms-service.html">Terms of Use</a>
+						<li class="mb-2"><a href="terms-of-service.html">Terms of Use</a>
 						</li>
             <li class="mb-2"><a href="privacy-policy.html">Privacy Policy</a>
 						</li>
@@ -708,6 +795,23 @@
 <!-- Main Script -->
 <script src="js/script.js"></script>
 <script src="js/countrycode.js"></script>
+
+<!-- Slick Slider initialization script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+
+
+<script>
+   $(document).ready(function(){
+      $('.slider-container').slick({
+         slidesToShow: 5, // Adjust the number of visible slides based on your design
+         slidesToScroll: 1,
+         autoplay: true,
+         autoplaySpeed: 2000,
+      });
+   });
+</script>
 
 </body>
 </html>
